@@ -4,16 +4,25 @@ body {
   padding: 0;
 }
 
+.header,
+.hero {
+  background: #1f2937;
+}
+
 .header {
   align-items: center;
-  background: #1f2937;
   display: flex;
   justify-content: space-between;
   padding: 24px 200px;
 }
 
-.header-logo {
+.header-logo,
+.hero-main-text,
+.sign-up-button {
   color: #f9faf8;
+}
+
+.header-logo {
   font-size: 24px;
   font-weight: 900;
 }
@@ -26,10 +35,51 @@ body {
   padding: 0;
 }
 
-.header-link {
+.header-link,
+.hero-secondary-text,
+.hero-right {
   color: #e5e7eb;
   font-size: 18px;
+}
+
+.header-link {
   margin: 0;
   padding: 0;
   text-decoration: none;
+}
+
+.hero {
+  align-items: stretch;
+  display: flex;
+  padding: 100px 200px;
+}
+
+.hero-left,
+.hero-right {
+  align-content: center;
+  flex: 1;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-secondary-text {
+  margin-bottom: 8px;
+}
+
+.sign-up-button {
+  background: #3882f6;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 8px 32px;
+}
+
+.hero-right {
+  background: #888;
+  text-align: center;
 }
