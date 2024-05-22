@@ -88,8 +88,13 @@ body {
   padding: 50px 200px;
 }
 
-.info-header-text {
+.info-header-text,
+.quote-text,
+.quote-author {
   color: #1f2937;
+}
+
+.info-header-text {
   font-size: 36px;
   font-weight: 900;
   margin-bottom: 50px;
@@ -116,4 +121,21 @@ body {
 .info-item-text {
   color: #888;
   text-align: center;
+}
+
+.quote {
+  background: #e5e7eb;
+  padding: 100px 350px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: right;
 }
